@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/DatabaseManager.cpp" "CMakeFiles/TestServer.dir/DatabaseManager.cpp.o" "gcc" "CMakeFiles/TestServer.dir/DatabaseManager.cpp.o.d"
-  "/Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/server.cpp" "CMakeFiles/TestServer.dir/server.cpp.o" "gcc" "CMakeFiles/TestServer.dir/server.cpp.o.d"
+  "/Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/DatabaseManager.cpp" "CMakeFiles/TestManager.dir/DatabaseManager.cpp.o" "gcc" "CMakeFiles/TestManager.dir/DatabaseManager.cpp.o.d"
+  "/Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/TestManager.cpp" "CMakeFiles/TestManager.dir/TestManager.cpp.o" "gcc" "CMakeFiles/TestManager.dir/TestManager.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

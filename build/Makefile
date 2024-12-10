@@ -129,6 +129,70 @@ TestServer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/build
 .PHONY : TestServer/fast
 
+#=============================================================================
+# Target rules for targets named TestManager
+
+# Build rule for target.
+TestManager: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestManager
+.PHONY : TestManager
+
+# fast build rule for target.
+TestManager/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/build
+.PHONY : TestManager/fast
+
+DatabaseManager.o: DatabaseManager.cpp.o
+.PHONY : DatabaseManager.o
+
+# target to build an object file
+DatabaseManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/DatabaseManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/DatabaseManager.cpp.o
+.PHONY : DatabaseManager.cpp.o
+
+DatabaseManager.i: DatabaseManager.cpp.i
+.PHONY : DatabaseManager.i
+
+# target to preprocess a source file
+DatabaseManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/DatabaseManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/DatabaseManager.cpp.i
+.PHONY : DatabaseManager.cpp.i
+
+DatabaseManager.s: DatabaseManager.cpp.s
+.PHONY : DatabaseManager.s
+
+# target to generate assembly for a file
+DatabaseManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/DatabaseManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/DatabaseManager.cpp.s
+.PHONY : DatabaseManager.cpp.s
+
+TestManager.o: TestManager.cpp.o
+.PHONY : TestManager.o
+
+# target to build an object file
+TestManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/TestManager.cpp.o
+.PHONY : TestManager.cpp.o
+
+TestManager.i: TestManager.cpp.i
+.PHONY : TestManager.i
+
+# target to preprocess a source file
+TestManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/TestManager.cpp.i
+.PHONY : TestManager.cpp.i
+
+TestManager.s: TestManager.cpp.s
+.PHONY : TestManager.s
+
+# target to generate assembly for a file
+TestManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/TestManager.cpp.s
+.PHONY : TestManager.cpp.s
+
 server.o: server.cpp.o
 .PHONY : server.o
 
@@ -161,7 +225,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... TestManager"
 	@echo "... TestServer"
+	@echo "... DatabaseManager.o"
+	@echo "... DatabaseManager.i"
+	@echo "... DatabaseManager.s"
+	@echo "... TestManager.o"
+	@echo "... TestManager.i"
+	@echo "... TestManager.s"
 	@echo "... server.o"
 	@echo "... server.i"
 	@echo "... server.s"

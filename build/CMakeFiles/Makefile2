@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/bui
 
 # The main recursive "all" target.
 all: CMakeFiles/TestServer.dir/all
+all: CMakeFiles/TestManager.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/TestServer.dir/clean
+clean: CMakeFiles/TestManager.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,12 +83,12 @@ clean: CMakeFiles/TestServer.dir/clean
 CMakeFiles/TestServer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/build/CMakeFiles --progress-num=1,2 "Built target TestServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/build/CMakeFiles --progress-num=4,5,6 "Built target TestServer"
 .PHONY : CMakeFiles/TestServer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TestServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TestServer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/build/CMakeFiles 0
 .PHONY : CMakeFiles/TestServer.dir/rule
@@ -99,6 +101,32 @@ TestServer: CMakeFiles/TestServer.dir/rule
 CMakeFiles/TestServer.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/clean
 .PHONY : CMakeFiles/TestServer.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/TestManager.dir
+
+# All Build rule for target.
+CMakeFiles/TestManager.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/build/CMakeFiles --progress-num=1,2,3 "Built target TestManager"
+.PHONY : CMakeFiles/TestManager.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/TestManager.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TestManager.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/build/CMakeFiles 0
+.PHONY : CMakeFiles/TestManager.dir/rule
+
+# Convenience name for target.
+TestManager: CMakeFiles/TestManager.dir/rule
+.PHONY : TestManager
+
+# clean rule for target.
+CMakeFiles/TestManager.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/clean
+.PHONY : CMakeFiles/TestManager.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
