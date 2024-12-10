@@ -1,0 +1,3 @@
+/Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/CMakeFiles/server.dir
+/Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/CMakeFiles/edit_cache.dir
+/Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/CMakeFiles/rebuild_cache.dir
