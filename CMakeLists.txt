@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Project name
-project(TestServer)
+project(DatabaseTest)
 
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 17)
@@ -11,8 +11,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Add include directories
 include_directories(include)
 
-# Add executable
-add_executable(TestServer server.cpp)
-
-# Link libraries (e.g., pthread and sqlite3)
+add_executable(TestServer server.cpp DatabaseManager.cpp)
 target_link_libraries(TestServer pthread sqlite3)
+# Add TestManager executable
+add_executable(TestManager TestManager.cpp DatabaseManager.cpp)
+
+# Link libraries for TestManager
+target_link_libraries(TestManager pthread sqlite3)

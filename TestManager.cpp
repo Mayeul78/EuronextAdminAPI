@@ -4,17 +4,9 @@
 void testAdminAuthentication(DatabaseManager &dbManager) {
     std::cout << "Testing Admin Authentication..." << std::endl;
 
-    // Add an admin user to test with (if not already present)
-    std::string addAdminSQL = "INSERT OR IGNORE INTO admin (AdminName, AdminPassword) VALUES ('admin', 'admin123');";
-    std::string errorMessage;
-    dbManager.executeSQL(addAdminSQL, errorMessage);
-
     // Test login
     if (dbManager.validateAdmin("admin", "admin123")) {
         std::cout << "Admin login successful!" << std::endl;
-        std::string token = dbManager.generateToken("admin");
-        std::cout << "Generated Token: " << token << std::endl;
-        std::cout << "Token validation: " << (dbManager.isTokenValid(token) ? "Valid" : "Invalid") << std::endl;
     } else {
         std::cout << "Admin login failed!" << std::endl;
     }
@@ -25,9 +17,21 @@ void testInstrumentOperations(DatabaseManager &dbManager) {
 
     // Add instruments
     if (dbManager.addInstrument("ISIN12345", "MIC123", "USD", "Active")) {
-        std::cout << "Instrument added successfully!" << std::endl;
+        std::cout << "First Instrument added successfully!" << std::endl;
     } else {
-        std::cout << "Failed to add instrument!" << std::endl;
+        std::cout << "Failed to add First instrument!" << std::endl;
+    }
+    // Add instruments
+    if (dbManager.addInstrument("ISIN2222", "MIC124", "USD", "Active")) {
+        std::cout << "Second Instrument added successfully!" << std::endl;
+    } else {
+        std::cout << "Failed to add Second instrument!" << std::endl;
+    }
+    // Add instruments
+    if (dbManager.addInstrument("ISIN2222", "MIC124", "USD", "Active")) {
+        std::cout << "Copy Instrument added successfully! --> ERROR" << std::endl;
+    } else {
+        std::cout << "Failed to add Copy instrument! --> Good" << std::endl;
     }
 
     // Retrieve all instruments

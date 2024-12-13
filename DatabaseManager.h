@@ -8,19 +8,18 @@
 
 class DatabaseManager {
 private:
-    sqlite3 *db;
-    std::map<std::string, std::string> authTokens;
-
-    bool executeSQL(const std::string &sql, std::string &errorMessage);
+    sqlite3 *db; // Pointer to the SQLite database
 
 public:
+    // Constructor and Destructor
     DatabaseManager(const std::string &dbName);
     ~DatabaseManager();
 
+    // Execute SQL Query
+    bool executeSQL(const std::string &sql, std::string &errorMessage);
+
     // Authentication
     bool validateAdmin(const std::string &username, const std::string &password);
-    std::string generateToken(const std::string &username);
-    bool isTokenValid(const std::string &token);
 
     // Instrument management
     bool addInstrument(const std::string &isin, const std::string &mic, const std::string &currency, const std::string &status);

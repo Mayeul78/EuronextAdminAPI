@@ -1,127 +1,173 @@
-#include <crow.h>
-#include <sqlite3.h>
-#include <iostream>
-#include <string>
+#include "crow.h"
+#include "DatabaseManager.h"
 #include <unordered_map>
+#include <string>
 #include <random>
-#include <csignal>
 
-// SQLite database handle
-sqlite3 *db = nullptr;
-
-// Token storage (in memory for simplicity)
+// Global token map: Key is username, Value is token
 std::unordered_map<std::string, std::string> tokens;
 
-// Signal handler to close the database
-void handle_signal(int signal) {
-    if (db) {
-        sqlite3_close(db);
-        std::cout << "\nDatabase connection closed due to signal (" << signal << ")." << std::endl;
-    }
-    exit(signal); // Exit gracefully
-}
-
-// Function to generate a random token (UUID-like)
-std::string generate_token() {
-    static const char alphanum[] = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    std::string token;
+// Generate a random token for authentication
+std::string generateToken() {
+    static const char charset[] =
+        "0123456789"
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        "abcdefghijklmnopqrstuvwxyz";
+    static const size_t length = 32;
 
     std::random_device rd;
-    std::mt19937 gen(rd());
-    std::uniform_int_distribution<> dis(0, sizeof(alphanum) - 2);
+    std::mt19937 generator(rd());
+    std::uniform_int_distribution<size_t> dist(0, sizeof(charset) - 2);
 
-    for (int i = 0; i < 32; ++i) {
-        token += alphanum[dis(gen)];
+    std::string token;
+    for (size_t i = 0; i < length; ++i) {
+        token += charset[dist(generator)];
     }
-
     return token;
 }
 
+// Check if a token is valid
+bool isTokenValid(const std::string &token) {
+    for (const auto &pair : tokens) {
+        if (pair.second == token) {
+            return true;
+        }
+    }
+    return false;
+}
+
 int main() {
-    // Register signal handlers for graceful termination
-    std::signal(SIGINT, handle_signal);
-    std::signal(SIGTERM, handle_signal);
-
-    // Open SQLite database
-    const std::string db_name = "users.db";
-    if (sqlite3_open(db_name.c_str(), &db)) {
-        std::cerr << "Can't open database: " << sqlite3_errmsg(db) << std::endl;
-        return 1;
-    }
-
-    // Create "admin" table if it doesn't exist
-    const char *create_table_sql ="";
-    /* "CREATE TABLE IF NOT EXISTS admin ("
-     "AdminName TEXT PRIMARY KEY, "
-        "INSERT INTO admin (AdminName, AdminPassword) "
-        "VALUES ('admin', 'admin123');";*/
-       
-    char *errorMessage = nullptr;
-    if (sqlite3_exec(db, create_table_sql, nullptr, nullptr, &errorMessage) != SQLITE_OK) {
-        std::cerr << "SQL error: " << errorMessage << std::endl;
-        sqlite3_free(errorMessage);
-        return 1;
-    }
-
     crow::SimpleApp app;
+    DatabaseManager dbManager("my_database.db");
 
-    // Login route
-    CROW_ROUTE(app, "/login").methods("POST"_method)([](const crow::request& req) {
+    // PING
+    CROW_ROUTE(app, "/ping").methods("GET"_method)([](const crow::request &req) {
+        return crow::response(200, "pong");
+       
+    });
+
+    // POST /login - Authenticate admin and provide a token
+    CROW_ROUTE(app, "/login").methods("POST"_method)([&dbManager](const crow::request &req) {
         auto body = crow::json::load(req.body);
-        if (!body || !body["username"] || !body["password"]) {
-            return crow::response(400, "Invalid JSON or missing fields");
+        if (!body || !body.has("username") || !body.has("password")) {
+            return crow::response(400, "Missing username or password");
         }
 
         std::string username = body["username"].s();
         std::string password = body["password"].s();
 
-        // Check credentials in the database
-        std::string query = "SELECT AdminPassword FROM admin WHERE AdminName = ?";
-        sqlite3_stmt *stmt;
-        if (sqlite3_prepare_v2(db, query.c_str(), -1, &stmt, nullptr) != SQLITE_OK) {
-            return crow::response(500, "Database error");
+        if (dbManager.validateAdmin(username, password)) {
+            // Generate and store token
+            std::string token = generateToken();
+            tokens[username] = token;
+
+            crow::json::wvalue response;
+            response["token"] = token;
+            return crow::response(200, response);
+        } else {
+            return crow::response(401, "Invalid username or password");
         }
-
-        sqlite3_bind_text(stmt, 1, username.c_str(), -1, SQLITE_TRANSIENT);
-        int rc = sqlite3_step(stmt);
-        if (rc == SQLITE_ROW) {
-            std::string stored_password = reinterpret_cast<const char*>(sqlite3_column_text(stmt, 0));
-            sqlite3_finalize(stmt);
-
-            if (stored_password == password) {
-                // Generate and return token
-                std::string token = generate_token();
-                tokens[username] = token; // Store token for the user
-                crow::json::wvalue response;
-                response["token"] = token;
-                return crow::response(200, response);
-            } else {
-                return crow::response(401, "Invalid password");
-            }
-        }
-
-        sqlite3_finalize(stmt);
-        return crow::response(404, "User not found");
     });
 
-    // Secure route requiring token authentication
-    CROW_ROUTE(app, "/secure").methods("GET"_method)([](const crow::request& req) {
+    // GET /secure - Validate token
+    CROW_ROUTE(app, "/secure").methods("GET"_method)([](const crow::request &req) {
         auto token = req.get_header_value("Authorization");
+
         if (token.empty()) {
-            return crow::response(401, "Authorization token missing");
+            return crow::response(400, "Missing Authorization header");
         }
 
-        // Check if the token exists
-        for (const auto& pair : tokens) {
-            if (pair.second == token) {
-                return crow::response(200, "Secure content accessed");
-            }
+        if (isTokenValid(token)) {
+            return crow::response(200, "Valid token");
+        } else {
+            return crow::response(401, "Invalid token");
         }
-
-        return crow::response(403, "Invalid or expired token");
     });
 
-    // Run the app
+    // POST /instruments - Add a new instrument
+    CROW_ROUTE(app, "/instruments").methods("POST"_method)([&dbManager](const crow::request &req) {
+        auto token = req.get_header_value("Authorization");
+        if (!isTokenValid(token)) {
+            return crow::response(401, "Invalid token");
+        }
+
+        auto body = crow::json::load(req.body);
+        if (!body || !body.has("isin") || !body.has("mic") || !body.has("currency") || !body.has("status")) {
+            return crow::response(400, "Missing instrument details");
+        }
+
+        std::string isin = body["isin"].s();
+        std::string mic = body["mic"].s();
+        std::string currency = body["currency"].s();
+        std::string status = body["status"].s();
+
+        if (dbManager.addInstrument(isin, mic, currency, status)) {
+            return crow::response(200, "Instrument added successfully");
+        } else {
+            return crow::response(500, "Failed to add instrument");
+        }
+    });
+    // Retrieve all instruments: GET /instruments
+    CROW_ROUTE(app, "/instruments").methods("GET"_method)([&dbManager](const crow::request &req) {
+        auto token = req.get_header_value("Authorization");
+        if (!isTokenValid(token)) {
+            return crow::response(401, "Invalid token");
+        }
+
+        auto instruments = dbManager.getInstruments();
+        crow::json::wvalue response;
+        crow::json::wvalue::list instrumentList;
+
+        for (const auto &instrument : instruments) {
+            crow::json::wvalue instrumentJson;
+            for (const auto &[key, value] : instrument) {
+                instrumentJson[key] = value;
+            }
+            instrumentList.emplace_back(std::move(instrumentJson));
+        }
+
+        response["instruments"] = std::move(instrumentList);
+        return crow::response(200, response);
+    });
+
+    // PUT /instruments/<isin> - Update an instrument
+    CROW_ROUTE(app, "/instruments/<string>").methods("PUT"_method)([&dbManager](const crow::request &req, const std::string &isin) {
+        auto token = req.get_header_value("Authorization");
+        if (!isTokenValid(token)) {
+            return crow::response(401, "Invalid token");
+        }
+
+        auto body = crow::json::load(req.body);
+        if (!body || !body.has("field") || !body.has("value")) {
+            return crow::response(400, "Missing field or value");
+        }
+
+        std::string field = body["field"].s();
+        std::string value = body["value"].s();
+
+        if (dbManager.updateInstrument(isin, field, value)) {
+            return crow::response(200, "Instrument updated successfully");
+        } else {
+            return crow::response(500, "Failed to update instrument");
+        }
+    });
+
+    // DELETE /instruments/<isin> - Delete an instrument
+    CROW_ROUTE(app, "/instruments/<string>").methods("DELETE"_method)([&dbManager](const crow::request &req, const std::string &isin) {
+        auto token = req.get_header_value("Authorization");
+        if (!isTokenValid(token)) {
+            return crow::response(401, "Invalid token");
+        }
+
+        if (dbManager.deleteInstrument(isin)) {
+            return crow::response(200, "Instrument deleted successfully");
+        } else {
+            return crow::response(500, "Failed to delete instrument");
+        }
+    });
+
+
+    std::cout << "Server running on http://localhost:18080" << std::endl;
     app.port(18080).multithreaded().run();
 
     return 0;
