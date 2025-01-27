@@ -10,21 +10,21 @@ DatabaseManager::DatabaseManager(const std::string &dbName) {
         return;
     }
 
-    // Create the admins table if it doesn't exist
-    std::string createAdminsTableSQL = R"(
-        CREATE TABLE IF NOT EXISTS admins (
+    // Create the users table if it doesn't exist
+    std::string createUsersTableSQL = R"(
+        CREATE TABLE IF NOT EXISTS users (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             username TEXT NOT NULL UNIQUE,
-            password TEXT NOT NULL
+            password TEXT NOT NULL,
+            role TEXT NOT NULL CHECK (role IN ('Admin', 'User'))
         );
-        INSERT OR IGNORE INTO admins (username, password) VALUES ('admin', 'admin123');
-        INSERT OR IGNORE INTO admins (username, password) VALUES ('admin2', 'admin123');
-
+        INSERT OR IGNORE INTO users (username, password, role) VALUES ('admin', 'admin123', 'Admin');
+        INSERT OR IGNORE INTO users (username, password, role) VALUES ('user1', 'user123', 'User');
     )";
 
     std::string errorMessage;
-    if (!executeSQL(createAdminsTableSQL, errorMessage)) {
-        std::cerr << "Error creating admins table: " << errorMessage << std::endl;
+    if (!executeSQL(createUsersTableSQL, errorMessage)) {
+        std::cerr << "Error creating users table: " << errorMessage << std::endl;
     }
 
     // Create the instruments table if it doesn't exist
@@ -50,7 +50,7 @@ DatabaseManager::~DatabaseManager() {
     }
 }
 
-// Execute a SQL query
+// Execute a generic SQL query
 bool DatabaseManager::executeSQL(const std::string &sql, std::string &errorMessage) {
     char *errMsg = nullptr;
     if (sqlite3_exec(db, sql.c_str(), nullptr, nullptr, &errMsg) != SQLITE_OK) {
@@ -60,29 +60,27 @@ bool DatabaseManager::executeSQL(const std::string &sql, std::string &errorMessa
     }
     return true;
 }
-// Validate admin credentials
-bool DatabaseManager::validateAdmin(const std::string &username, const std::string &password) {
-    // SQL query to check for a matching username and password
-    std::string sql = "SELECT 1 FROM admins WHERE username = '" + username + "' AND password = '" + password + "' LIMIT 1;";
+
+// Validate a user and retrieve their role
+bool DatabaseManager::validateUser(const std::string &username, const std::string &password, std::string &role) {
+    std::string sql = "SELECT role FROM users WHERE username = '" + username + "' AND password = '" + password + "' LIMIT 1;";
     sqlite3_stmt *stmt;
 
-    // Prepare the SQL statement
     if (sqlite3_prepare_v2(db, sql.c_str(), -1, &stmt, nullptr) != SQLITE_OK) {
         std::cerr << "Error preparing statement: " << sqlite3_errmsg(db) << std::endl;
         return false;
     }
 
-    // Execute the query
     int result = sqlite3_step(stmt);
-    bool isValid = (result == SQLITE_ROW); // If we get a row, the credentials are valid
+    if (result == SQLITE_ROW) {
+        role = reinterpret_cast<const char *>(sqlite3_column_text(stmt, 0));
+        sqlite3_finalize(stmt);
+        return true;
+    }
 
-    // Finalize the statement to clean up
     sqlite3_finalize(stmt);
-
-    return isValid;
+    return false;
 }
-
-
 
 // Add an instrument to the database
 bool DatabaseManager::addInstrument(const std::string &isin, const std::string &mic, const std::string &currency, const std::string &status) {
@@ -133,7 +131,7 @@ std::vector<std::map<std::string, std::string>> DatabaseManager::getInstruments(
         std::map<std::string, std::string> instrument;
         for (int col = 0; col < sqlite3_column_count(stmt); ++col) {
             std::string columnName = sqlite3_column_name(stmt, col);
-            std::string columnValue = reinterpret_cast<const char*>(sqlite3_column_text(stmt, col));
+            std::string columnValue = reinterpret_cast<const char *>(sqlite3_column_text(stmt, col));
             instrument[columnName] = columnValue;
         }
         instruments.push_back(instrument);

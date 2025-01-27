@@ -1,14 +1,23 @@
 #include "DatabaseManager.h"
 #include <iostream>
 
-void testAdminAuthentication(DatabaseManager &dbManager) {
-    std::cout << "Testing Admin Authentication..." << std::endl;
+void testUserAuthentication(DatabaseManager &dbManager) {
+    std::cout << "Testing User Authentication..." << std::endl;
 
-    // Test login
-    if (dbManager.validateAdmin("admin", "admin123")) {
+    std::string role;
+
+    // Test Admin login
+    if (dbManager.validateUser("admin", "admin123", role) && role == "Admin") {
         std::cout << "Admin login successful!" << std::endl;
     } else {
         std::cout << "Admin login failed!" << std::endl;
+    }
+
+    // Test Regular User login
+    if (dbManager.validateUser("user1", "user123", role) && role == "User") {
+        std::cout << "User login successful!" << std::endl;
+    } else {
+        std::cout << "User login failed!" << std::endl;
     }
 }
 
@@ -21,17 +30,17 @@ void testInstrumentOperations(DatabaseManager &dbManager) {
     } else {
         std::cout << "Failed to add First instrument!" << std::endl;
     }
-    // Add instruments
+
     if (dbManager.addInstrument("ISIN2222", "MIC124", "USD", "Active")) {
         std::cout << "Second Instrument added successfully!" << std::endl;
     } else {
         std::cout << "Failed to add Second instrument!" << std::endl;
     }
-    // Add instruments
+
     if (dbManager.addInstrument("ISIN2222", "MIC124", "USD", "Active")) {
-        std::cout << "Copy Instrument added successfully! --> ERROR" << std::endl;
+        std::cout << "Duplicate Instrument added successfully! --> ERROR" << std::endl;
     } else {
-        std::cout << "Failed to add Copy instrument! --> Good" << std::endl;
+        std::cout << "Failed to add Duplicate instrument! --> Good" << std::endl;
     }
 
     // Retrieve all instruments
@@ -87,8 +96,8 @@ int main() {
     try {
         DatabaseManager dbManager("test_users.db");
 
-        // Test Admin Authentication
-        testAdminAuthentication(dbManager);
+        // Test User Authentication
+        testUserAuthentication(dbManager);
 
         // Test Instrument Operations
         testInstrumentOperations(dbManager);

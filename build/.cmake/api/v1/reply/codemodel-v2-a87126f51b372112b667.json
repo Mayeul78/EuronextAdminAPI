@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -20,7 +20,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TestManager::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TestManager-Debug-90eb9220fd1c05634908.json",
+					"jsonFile" : "target-TestManager-57c273a0aa3ad46baff0.json",
 					"name" : "TestManager",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "TestServer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TestServer-Debug-98288ccfe4e01d2f530d.json",
+					"jsonFile" : "target-TestServer-e0730e7bc8d1aca8336f.json",
 					"name" : "TestServer",
 					"projectIndex" : 0
 				}
@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/build",
-		"source" : "/Users/mayeulboucher/Desktop/Euronext_Project/TestServeur"
+		"build" : "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build",
+		"source" : "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur"
 	},
 	"version" : 
 	{

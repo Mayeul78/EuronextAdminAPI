@@ -8,7 +8,7 @@
 
 class DatabaseManager {
 private:
-    sqlite3 *db; // Pointer to the SQLite database
+    sqlite3 *db;
 
 public:
     // Constructor and Destructor
@@ -19,9 +19,9 @@ public:
     bool executeSQL(const std::string &sql, std::string &errorMessage);
 
     // Authentication
-    bool validateAdmin(const std::string &username, const std::string &password);
+    bool validateUser(const std::string &username, const std::string &password, std::string &role);
 
-    // Instrument management
+    // Instrument Management (Admin only)
     bool addInstrument(const std::string &isin, const std::string &mic, const std::string &currency, const std::string &status);
     bool updateInstrument(const std::string &isin, const std::string &field, const std::string &value);
     bool deleteInstrument(const std::string &isin);

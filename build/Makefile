@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mayeulboucher/Desktop/Euronext_Project/TestServeur
+CMAKE_SOURCE_DIR = /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/build
+CMAKE_BINARY_DIR = /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/build/CMakeFiles /Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build/CMakeFiles /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mayeulboucher/Desktop/Euronext_Project/TestServeur/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -193,6 +193,30 @@ TestManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/TestManager.cpp.s
 .PHONY : TestManager.cpp.s
 
+TokenManager.o: TokenManager.cpp.o
+.PHONY : TokenManager.o
+
+# target to build an object file
+TokenManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/TokenManager.cpp.o
+.PHONY : TokenManager.cpp.o
+
+TokenManager.i: TokenManager.cpp.i
+.PHONY : TokenManager.i
+
+# target to preprocess a source file
+TokenManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/TokenManager.cpp.i
+.PHONY : TokenManager.cpp.i
+
+TokenManager.s: TokenManager.cpp.s
+.PHONY : TokenManager.s
+
+# target to generate assembly for a file
+TokenManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/TokenManager.cpp.s
+.PHONY : TokenManager.cpp.s
+
 server.o: server.cpp.o
 .PHONY : server.o
 
@@ -233,6 +257,9 @@ help:
 	@echo "... TestManager.o"
 	@echo "... TestManager.i"
 	@echo "... TestManager.s"
+	@echo "... TokenManager.o"
+	@echo "... TokenManager.i"
+	@echo "... TokenManager.s"
 	@echo "... server.o"
 	@echo "... server.i"
 	@echo "... server.s"

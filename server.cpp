@@ -1,94 +1,47 @@
 #include "crow.h"
 #include "DatabaseManager.h"
-#include <unordered_map>
+#include "TokenManager.h"
 #include <string>
-#include <random>
 
-// Global token map: Key is username, Value is token
-std::unordered_map<std::string, std::string> tokens;
-
-// Generate a random token for authentication
-std::string generateToken() {
-    static const char charset[] =
-        "0123456789"
-        "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        "abcdefghijklmnopqrstuvwxyz";
-    static const size_t length = 32;
-
-    std::random_device rd;
-    std::mt19937 generator(rd());
-    std::uniform_int_distribution<size_t> dist(0, sizeof(charset) - 2);
-
-    std::string token;
-    for (size_t i = 0; i < length; ++i) {
-        token += charset[dist(generator)];
-    }
-    return token;
-}
-
-// Check if a token is valid
-bool isTokenValid(const std::string &token) {
-    for (const auto &pair : tokens) {
-        if (pair.second == token) {
-            return true;
-        }
-    }
-    return false;
-}
+TokenManager tokenManager;
 
 int main() {
     crow::SimpleApp app;
-    DatabaseManager dbManager("my_database.db");
+    DatabaseManager dbManager("project_database.db");
 
-    // PING
-    CROW_ROUTE(app, "/ping").methods("GET"_method)([](const crow::request &req) {
-        return crow::response(200, "pong");
-       
-    });
+    CROW_ROUTE(app, "/login").methods("POST"_method)([&](const crow::request &req) {
+    auto body = crow::json::load(req.body);
+    if (!body || !body.has("username") || !body.has("password")) {
+        return crow::response(400, "Missing username or password");
+    }
 
-    // POST /login - Authenticate admin and provide a token
-    CROW_ROUTE(app, "/login").methods("POST"_method)([&dbManager](const crow::request &req) {
-        auto body = crow::json::load(req.body);
-        if (!body || !body.has("username") || !body.has("password")) {
-            return crow::response(400, "Missing username or password");
-        }
+    std::string username = body["username"].s();
+    std::string password = body["password"].s();
+    std::string role;
 
-        std::string username = body["username"].s();
-        std::string password = body["password"].s();
+    // Validate the user and get their role
+    if (dbManager.validateUser(username, password, role)) {
+        std::string token = tokenManager.generateToken();
+        tokenManager.storeToken(username, token, role);
 
-        if (dbManager.validateAdmin(username, password)) {
-            // Generate and store token
-            std::string token = generateToken();
-            tokens[username] = token;
+        crow::json::wvalue response;
+        response["token"] = token;
+        response["role"] = role;
+        return crow::response(200, response);
+    } else {
+        return crow::response(401, "Invalid username or password");
+    }
+});
 
-            crow::json::wvalue response;
-            response["token"] = token;
-            return crow::response(200, response);
-        } else {
-            return crow::response(401, "Invalid username or password");
-        }
-    });
 
-    // GET /secure - Validate token
-    CROW_ROUTE(app, "/secure").methods("GET"_method)([](const crow::request &req) {
+    // Add a new instrument (Admin only)
+    CROW_ROUTE(app, "/instruments").methods("POST"_method)([&](const crow::request &req) {
+        std::string role;
         auto token = req.get_header_value("Authorization");
 
-        if (token.empty()) {
-            return crow::response(400, "Missing Authorization header");
-        }
-
-        if (isTokenValid(token)) {
-            return crow::response(200, "Valid token");
-        } else {
-            return crow::response(401, "Invalid token");
-        }
-    });
-
-    // POST /instruments - Add a new instrument
-    CROW_ROUTE(app, "/instruments").methods("POST"_method)([&dbManager](const crow::request &req) {
-        auto token = req.get_header_value("Authorization");
-        if (!isTokenValid(token)) {
-            return crow::response(401, "Invalid token");
+        // Check if token is valid and the user is an admin
+        if (!tokenManager.isTokenValid(token, role) || role != "Admin") {
+            return crow::response(403, "Forbidden: Admin access only");
         }
 
         auto body = crow::json::load(req.body);
@@ -107,11 +60,14 @@ int main() {
             return crow::response(500, "Failed to add instrument");
         }
     });
-    // Retrieve all instruments: GET /instruments
-    CROW_ROUTE(app, "/instruments").methods("GET"_method)([&dbManager](const crow::request &req) {
+
+    // Retrieve all instruments (Admin only)
+    CROW_ROUTE(app, "/instruments").methods("GET"_method)([&](const crow::request &req) {
+        std::string role;
         auto token = req.get_header_value("Authorization");
-        if (!isTokenValid(token)) {
-            return crow::response(401, "Invalid token");
+
+        if (!tokenManager.isTokenValid(token, role) || role != "Admin") {
+            return crow::response(403, "Forbidden: Admin access only");
         }
 
         auto instruments = dbManager.getInstruments();
@@ -130,11 +86,13 @@ int main() {
         return crow::response(200, response);
     });
 
-    // PUT /instruments/<isin> - Update an instrument
-    CROW_ROUTE(app, "/instruments/<string>").methods("PUT"_method)([&dbManager](const crow::request &req, const std::string &isin) {
+    // Update an instrument (Admin only)
+    CROW_ROUTE(app, "/instruments/<string>").methods("PUT"_method)([&](const crow::request &req, const std::string &isin) {
+        std::string role;
         auto token = req.get_header_value("Authorization");
-        if (!isTokenValid(token)) {
-            return crow::response(401, "Invalid token");
+
+        if (!tokenManager.isTokenValid(token, role) || role != "Admin") {
+            return crow::response(403, "Forbidden: Admin access only");
         }
 
         auto body = crow::json::load(req.body);
@@ -152,11 +110,13 @@ int main() {
         }
     });
 
-    // DELETE /instruments/<isin> - Delete an instrument
-    CROW_ROUTE(app, "/instruments/<string>").methods("DELETE"_method)([&dbManager](const crow::request &req, const std::string &isin) {
+    // Delete an instrument (Admin only)
+    CROW_ROUTE(app, "/instruments/<string>").methods("DELETE"_method)([&](const crow::request &req, const std::string &isin) {
+        std::string role;
         auto token = req.get_header_value("Authorization");
-        if (!isTokenValid(token)) {
-            return crow::response(401, "Invalid token");
+
+        if (!tokenManager.isTokenValid(token, role) || role != "Admin") {
+            return crow::response(403, "Forbidden: Admin access only");
         }
 
         if (dbManager.deleteInstrument(isin)) {
@@ -166,7 +126,12 @@ int main() {
         }
     });
 
+    // General endpoint to check server status
+    CROW_ROUTE(app, "/ping").methods("GET"_method)([] {
+        return crow::response(200, "pong");
+    });
 
+    // Start the server
     std::cout << "Server running on http://localhost:18080" << std::endl;
     app.port(18080).multithreaded().run();
 
