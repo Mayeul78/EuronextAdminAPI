@@ -49,26 +49,26 @@ cmake_ninja_workdir = /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/
 
 build cmake_object_order_depends_target_TestServer: phony || .
 
-build CMakeFiles/TestServer.dir/server.cpp.o: CXX_COMPILER__TestServer_unscanned_Debug /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/server.cpp || cmake_object_order_depends_target_TestServer
-  DEP_FILE = CMakeFiles/TestServer.dir/server.cpp.o.d
+build CMakeFiles/TestServer.dir/src/server.cpp.o: CXX_COMPILER__TestServer_unscanned_Debug /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/server.cpp || cmake_object_order_depends_target_TestServer
+  DEP_FILE = CMakeFiles/TestServer.dir/src/server.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
-  INCLUDES = -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include
+  INCLUDES = -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -I/usr/local/include -I/usr/local/include/crow -I/usr/local/include/asio
   OBJECT_DIR = CMakeFiles/TestServer.dir
-  OBJECT_FILE_DIR = CMakeFiles/TestServer.dir
+  OBJECT_FILE_DIR = CMakeFiles/TestServer.dir/src
 
-build CMakeFiles/TestServer.dir/DatabaseManager.cpp.o: CXX_COMPILER__TestServer_unscanned_Debug /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.cpp || cmake_object_order_depends_target_TestServer
-  DEP_FILE = CMakeFiles/TestServer.dir/DatabaseManager.cpp.o.d
+build CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o: CXX_COMPILER__TestServer_unscanned_Debug /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/DatabaseManager.cpp || cmake_object_order_depends_target_TestServer
+  DEP_FILE = CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
-  INCLUDES = -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include
+  INCLUDES = -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -I/usr/local/include -I/usr/local/include/crow -I/usr/local/include/asio
   OBJECT_DIR = CMakeFiles/TestServer.dir
-  OBJECT_FILE_DIR = CMakeFiles/TestServer.dir
+  OBJECT_FILE_DIR = CMakeFiles/TestServer.dir/src
 
-build CMakeFiles/TestServer.dir/TokenManager.cpp.o: CXX_COMPILER__TestServer_unscanned_Debug /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/TokenManager.cpp || cmake_object_order_depends_target_TestServer
-  DEP_FILE = CMakeFiles/TestServer.dir/TokenManager.cpp.o.d
+build CMakeFiles/TestServer.dir/src/TokenManager.cpp.o: CXX_COMPILER__TestServer_unscanned_Debug /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/TokenManager.cpp || cmake_object_order_depends_target_TestServer
+  DEP_FILE = CMakeFiles/TestServer.dir/src/TokenManager.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
-  INCLUDES = -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include
+  INCLUDES = -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -I/usr/local/include -I/usr/local/include/crow -I/usr/local/include/asio
   OBJECT_DIR = CMakeFiles/TestServer.dir
-  OBJECT_FILE_DIR = CMakeFiles/TestServer.dir
+  OBJECT_FILE_DIR = CMakeFiles/TestServer.dir/src
 
 
 # =============================================================================
@@ -78,7 +78,7 @@ build CMakeFiles/TestServer.dir/TokenManager.cpp.o: CXX_COMPILER__TestServer_uns
 #############################################
 # Link the executable TestServer
 
-build TestServer: CXX_EXECUTABLE_LINKER__TestServer_Debug CMakeFiles/TestServer.dir/server.cpp.o CMakeFiles/TestServer.dir/DatabaseManager.cpp.o CMakeFiles/TestServer.dir/TokenManager.cpp.o
+build TestServer: CXX_EXECUTABLE_LINKER__TestServer_Debug CMakeFiles/TestServer.dir/src/server.cpp.o CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o CMakeFiles/TestServer.dir/src/TokenManager.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
   LINK_LIBRARIES = -lpthread  -lsqlite3
   OBJECT_DIR = CMakeFiles/TestServer.dir
@@ -96,19 +96,19 @@ build TestServer: CXX_EXECUTABLE_LINKER__TestServer_Debug CMakeFiles/TestServer.
 
 build cmake_object_order_depends_target_TestManager: phony || .
 
-build CMakeFiles/TestManager.dir/TestManager.cpp.o: CXX_COMPILER__TestManager_unscanned_Debug /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/TestManager.cpp || cmake_object_order_depends_target_TestManager
-  DEP_FILE = CMakeFiles/TestManager.dir/TestManager.cpp.o.d
+build CMakeFiles/TestManager.dir/src/TestManager.cpp.o: CXX_COMPILER__TestManager_unscanned_Debug /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/TestManager.cpp || cmake_object_order_depends_target_TestManager
+  DEP_FILE = CMakeFiles/TestManager.dir/src/TestManager.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
-  INCLUDES = -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include
+  INCLUDES = -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -I/usr/local/include
   OBJECT_DIR = CMakeFiles/TestManager.dir
-  OBJECT_FILE_DIR = CMakeFiles/TestManager.dir
+  OBJECT_FILE_DIR = CMakeFiles/TestManager.dir/src
 
-build CMakeFiles/TestManager.dir/DatabaseManager.cpp.o: CXX_COMPILER__TestManager_unscanned_Debug /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.cpp || cmake_object_order_depends_target_TestManager
-  DEP_FILE = CMakeFiles/TestManager.dir/DatabaseManager.cpp.o.d
+build CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o: CXX_COMPILER__TestManager_unscanned_Debug /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/DatabaseManager.cpp || cmake_object_order_depends_target_TestManager
+  DEP_FILE = CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
-  INCLUDES = -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include
+  INCLUDES = -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -I/usr/local/include
   OBJECT_DIR = CMakeFiles/TestManager.dir
-  OBJECT_FILE_DIR = CMakeFiles/TestManager.dir
+  OBJECT_FILE_DIR = CMakeFiles/TestManager.dir/src
 
 
 # =============================================================================
@@ -118,7 +118,7 @@ build CMakeFiles/TestManager.dir/DatabaseManager.cpp.o: CXX_COMPILER__TestManage
 #############################################
 # Link the executable TestManager
 
-build TestManager: CXX_EXECUTABLE_LINKER__TestManager_Debug CMakeFiles/TestManager.dir/TestManager.cpp.o CMakeFiles/TestManager.dir/DatabaseManager.cpp.o
+build TestManager: CXX_EXECUTABLE_LINKER__TestManager_Debug CMakeFiles/TestManager.dir/src/TestManager.cpp.o CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
   LINK_LIBRARIES = -lpthread  -lsqlite3
   OBJECT_DIR = CMakeFiles/TestManager.dir

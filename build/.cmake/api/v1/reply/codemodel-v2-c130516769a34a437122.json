@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -20,7 +20,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TestManager::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TestManager-57c273a0aa3ad46baff0.json",
+					"jsonFile" : "target-TestManager-Debug-2ba0fe846be6b4aebdb3.json",
 					"name" : "TestManager",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "TestServer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TestServer-e0730e7bc8d1aca8336f.json",
+					"jsonFile" : "target-TestServer-Debug-093938e7fa5c27aaa334.json",
 					"name" : "TestServer",
 					"projectIndex" : 0
 				}

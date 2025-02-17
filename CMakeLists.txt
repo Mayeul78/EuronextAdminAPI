@@ -9,12 +9,15 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add include directories
-include_directories(include)
+include_directories(include /usr/local/include)
 
-add_executable(TestServer server.cpp DatabaseManager.cpp TokenManager.cpp)
+# Ajouter les fichiers source
+add_executable(TestServer src/server.cpp src/DatabaseManager.cpp src/TokenManager.cpp)
 target_link_libraries(TestServer pthread sqlite3)
-# Add TestManager executable
-add_executable(TestManager TestManager.cpp DatabaseManager.cpp)
 
-# Link libraries for TestManager
+# Ajouter Crow et Asio
+target_include_directories(TestServer PRIVATE /usr/local/include/crow /usr/local/include/asio)
+
+# Ajouter un exécutable pour les tests
+add_executable(TestManager src/TestManager.cpp src/DatabaseManager.cpp)
 target_link_libraries(TestManager pthread sqlite3)

@@ -1,32 +1,32 @@
 [
 {
   "directory": "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build",
-  "command": "/usr/bin/clang++ -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/TestServer.dir/server.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/server.cpp",
-  "file": "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/server.cpp",
-  "output": "CMakeFiles/TestServer.dir/server.cpp.o"
+  "command": "/usr/bin/clang++ -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -I/usr/local/include -I/usr/local/include/crow -I/usr/local/include/asio -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/TestServer.dir/src/server.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/server.cpp",
+  "file": "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/server.cpp",
+  "output": "CMakeFiles/TestServer.dir/src/server.cpp.o"
 },
 {
   "directory": "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build",
-  "command": "/usr/bin/clang++ -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/TestServer.dir/DatabaseManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.cpp",
-  "file": "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.cpp",
-  "output": "CMakeFiles/TestServer.dir/DatabaseManager.cpp.o"
+  "command": "/usr/bin/clang++ -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -I/usr/local/include -I/usr/local/include/crow -I/usr/local/include/asio -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/DatabaseManager.cpp",
+  "file": "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/DatabaseManager.cpp",
+  "output": "CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o"
 },
 {
   "directory": "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build",
-  "command": "/usr/bin/clang++ -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/TestServer.dir/TokenManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/TokenManager.cpp",
-  "file": "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/TokenManager.cpp",
-  "output": "CMakeFiles/TestServer.dir/TokenManager.cpp.o"
+  "command": "/usr/bin/clang++ -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -I/usr/local/include -I/usr/local/include/crow -I/usr/local/include/asio -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/TestServer.dir/src/TokenManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/TokenManager.cpp",
+  "file": "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/TokenManager.cpp",
+  "output": "CMakeFiles/TestServer.dir/src/TokenManager.cpp.o"
 },
 {
   "directory": "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build",
-  "command": "/usr/bin/clang++ -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/TestManager.dir/TestManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/TestManager.cpp",
-  "file": "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/TestManager.cpp",
-  "output": "CMakeFiles/TestManager.dir/TestManager.cpp.o"
+  "command": "/usr/bin/clang++ -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -I/usr/local/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/TestManager.dir/src/TestManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/TestManager.cpp",
+  "file": "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/TestManager.cpp",
+  "output": "CMakeFiles/TestManager.dir/src/TestManager.cpp.o"
 },
 {
   "directory": "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build",
-  "command": "/usr/bin/clang++ -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/TestManager.dir/DatabaseManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.cpp",
-  "file": "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.cpp",
-  "output": "CMakeFiles/TestManager.dir/DatabaseManager.cpp.o"
+  "command": "/usr/bin/clang++ -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -I/usr/local/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/DatabaseManager.cpp",
+  "file": "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/DatabaseManager.cpp",
+  "output": "CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o"
 }
 ]

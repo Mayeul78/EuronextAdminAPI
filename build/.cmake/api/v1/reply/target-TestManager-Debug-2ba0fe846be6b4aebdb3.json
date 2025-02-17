@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "TestServer"
+			"path" : "TestManager"
 		}
 	],
 	"backtrace" : 1,
@@ -26,13 +26,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 14,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 15,
+				"line" : 23,
 				"parent" : 0
 			},
 			{
@@ -49,7 +49,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
 				}
 			],
 			"includes" : 
@@ -57,6 +57,10 @@
 				{
 					"backtrace" : 3,
 					"path" : "/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/usr/local/include"
 				}
 			],
 			"language" : "CXX",
@@ -71,16 +75,19 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1,
-				2
+				1
 			]
 		}
 	],
-	"id" : "TestServer::@6890427a1f51a3e7e1df",
+	"id" : "TestManager::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
 			{
 				"fragment" : "",
 				"role" : "flags"
@@ -98,8 +105,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "TestServer",
-	"nameOnDisk" : "TestServer",
+	"name" : "TestManager",
+	"nameOnDisk" : "TestManager",
 	"paths" : 
 	{
 		"build" : ".",
@@ -112,8 +119,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1,
-				2
+				1
 			]
 		}
 	],
@@ -122,19 +128,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "server.cpp",
+			"path" : "src/TestManager.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "DatabaseManager.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "TokenManager.cpp",
+			"path" : "src/DatabaseManager.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
