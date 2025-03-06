@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include
+CXX_INCLUDES = -I/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include -I/usr/local/include -I/usr/local/include/crow -I/usr/local/include/asio
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
 

@@ -1,0 +1,6 @@
+Build l'image dans le path du TestServeur
+docker build -t mon-serveur .
+
+Run le containeur
+docker run -d --name serveur -p 18080:18080 mon-serveur
+

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TestServer.dir/DatabaseManager.cpp.o"
-  "CMakeFiles/TestServer.dir/DatabaseManager.cpp.o.d"
-  "CMakeFiles/TestServer.dir/TokenManager.cpp.o"
-  "CMakeFiles/TestServer.dir/TokenManager.cpp.o.d"
-  "CMakeFiles/TestServer.dir/server.cpp.o"
-  "CMakeFiles/TestServer.dir/server.cpp.o.d"
+  "CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o"
+  "CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o.d"
+  "CMakeFiles/TestServer.dir/src/TokenManager.cpp.o"
+  "CMakeFiles/TestServer.dir/src/TokenManager.cpp.o.d"
+  "CMakeFiles/TestServer.dir/src/server.cpp.o"
+  "CMakeFiles/TestServer.dir/src/server.cpp.o.d"
   "TestServer"
   "TestServer.pdb"
 )

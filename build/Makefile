@@ -142,104 +142,104 @@ TestManager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/build
 .PHONY : TestManager/fast
 
-DatabaseManager.o: DatabaseManager.cpp.o
-.PHONY : DatabaseManager.o
+src/DatabaseManager.o: src/DatabaseManager.cpp.o
+.PHONY : src/DatabaseManager.o
 
 # target to build an object file
-DatabaseManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/DatabaseManager.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/DatabaseManager.cpp.o
-.PHONY : DatabaseManager.cpp.o
+src/DatabaseManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o
+.PHONY : src/DatabaseManager.cpp.o
 
-DatabaseManager.i: DatabaseManager.cpp.i
-.PHONY : DatabaseManager.i
+src/DatabaseManager.i: src/DatabaseManager.cpp.i
+.PHONY : src/DatabaseManager.i
 
 # target to preprocess a source file
-DatabaseManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/DatabaseManager.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/DatabaseManager.cpp.i
-.PHONY : DatabaseManager.cpp.i
+src/DatabaseManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.i
+.PHONY : src/DatabaseManager.cpp.i
 
-DatabaseManager.s: DatabaseManager.cpp.s
-.PHONY : DatabaseManager.s
+src/DatabaseManager.s: src/DatabaseManager.cpp.s
+.PHONY : src/DatabaseManager.s
 
 # target to generate assembly for a file
-DatabaseManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/DatabaseManager.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/DatabaseManager.cpp.s
-.PHONY : DatabaseManager.cpp.s
+src/DatabaseManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.s
+.PHONY : src/DatabaseManager.cpp.s
 
-TestManager.o: TestManager.cpp.o
-.PHONY : TestManager.o
+src/TestManager.o: src/TestManager.cpp.o
+.PHONY : src/TestManager.o
 
 # target to build an object file
-TestManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/TestManager.cpp.o
-.PHONY : TestManager.cpp.o
+src/TestManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/src/TestManager.cpp.o
+.PHONY : src/TestManager.cpp.o
 
-TestManager.i: TestManager.cpp.i
-.PHONY : TestManager.i
+src/TestManager.i: src/TestManager.cpp.i
+.PHONY : src/TestManager.i
 
 # target to preprocess a source file
-TestManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/TestManager.cpp.i
-.PHONY : TestManager.cpp.i
+src/TestManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/src/TestManager.cpp.i
+.PHONY : src/TestManager.cpp.i
 
-TestManager.s: TestManager.cpp.s
-.PHONY : TestManager.s
+src/TestManager.s: src/TestManager.cpp.s
+.PHONY : src/TestManager.s
 
 # target to generate assembly for a file
-TestManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/TestManager.cpp.s
-.PHONY : TestManager.cpp.s
+src/TestManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestManager.dir/build.make CMakeFiles/TestManager.dir/src/TestManager.cpp.s
+.PHONY : src/TestManager.cpp.s
 
-TokenManager.o: TokenManager.cpp.o
-.PHONY : TokenManager.o
+src/TokenManager.o: src/TokenManager.cpp.o
+.PHONY : src/TokenManager.o
 
 # target to build an object file
-TokenManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/TokenManager.cpp.o
-.PHONY : TokenManager.cpp.o
+src/TokenManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/src/TokenManager.cpp.o
+.PHONY : src/TokenManager.cpp.o
 
-TokenManager.i: TokenManager.cpp.i
-.PHONY : TokenManager.i
+src/TokenManager.i: src/TokenManager.cpp.i
+.PHONY : src/TokenManager.i
 
 # target to preprocess a source file
-TokenManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/TokenManager.cpp.i
-.PHONY : TokenManager.cpp.i
+src/TokenManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/src/TokenManager.cpp.i
+.PHONY : src/TokenManager.cpp.i
 
-TokenManager.s: TokenManager.cpp.s
-.PHONY : TokenManager.s
+src/TokenManager.s: src/TokenManager.cpp.s
+.PHONY : src/TokenManager.s
 
 # target to generate assembly for a file
-TokenManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/TokenManager.cpp.s
-.PHONY : TokenManager.cpp.s
+src/TokenManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/src/TokenManager.cpp.s
+.PHONY : src/TokenManager.cpp.s
 
-server.o: server.cpp.o
-.PHONY : server.o
+src/server.o: src/server.cpp.o
+.PHONY : src/server.o
 
 # target to build an object file
-server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/server.cpp.o
-.PHONY : server.cpp.o
+src/server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/src/server.cpp.o
+.PHONY : src/server.cpp.o
 
-server.i: server.cpp.i
-.PHONY : server.i
+src/server.i: src/server.cpp.i
+.PHONY : src/server.i
 
 # target to preprocess a source file
-server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/server.cpp.i
-.PHONY : server.cpp.i
+src/server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/src/server.cpp.i
+.PHONY : src/server.cpp.i
 
-server.s: server.cpp.s
-.PHONY : server.s
+src/server.s: src/server.cpp.s
+.PHONY : src/server.s
 
 # target to generate assembly for a file
-server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/server.cpp.s
-.PHONY : server.cpp.s
+src/server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestServer.dir/build.make CMakeFiles/TestServer.dir/src/server.cpp.s
+.PHONY : src/server.cpp.s
 
 # Help Target
 help:
@@ -251,18 +251,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... TestManager"
 	@echo "... TestServer"
-	@echo "... DatabaseManager.o"
-	@echo "... DatabaseManager.i"
-	@echo "... DatabaseManager.s"
-	@echo "... TestManager.o"
-	@echo "... TestManager.i"
-	@echo "... TestManager.s"
-	@echo "... TokenManager.o"
-	@echo "... TokenManager.i"
-	@echo "... TokenManager.s"
-	@echo "... server.o"
-	@echo "... server.i"
-	@echo "... server.s"
+	@echo "... src/DatabaseManager.o"
+	@echo "... src/DatabaseManager.i"
+	@echo "... src/DatabaseManager.s"
+	@echo "... src/TestManager.o"
+	@echo "... src/TestManager.i"
+	@echo "... src/TestManager.s"
+	@echo "... src/TokenManager.o"
+	@echo "... src/TokenManager.i"
+	@echo "... src/TokenManager.s"
+	@echo "... src/server.o"
+	@echo "... src/server.i"
+	@echo "... src/server.s"
 .PHONY : help
 
 

@@ -69,44 +69,44 @@ include CMakeFiles/TestManager.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TestManager.dir/flags.make
 
-CMakeFiles/TestManager.dir/TestManager.cpp.o: CMakeFiles/TestManager.dir/flags.make
-CMakeFiles/TestManager.dir/TestManager.cpp.o: /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/TestManager.cpp
-CMakeFiles/TestManager.dir/TestManager.cpp.o: CMakeFiles/TestManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestManager.dir/TestManager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestManager.dir/TestManager.cpp.o -MF CMakeFiles/TestManager.dir/TestManager.cpp.o.d -o CMakeFiles/TestManager.dir/TestManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/TestManager.cpp
+CMakeFiles/TestManager.dir/src/TestManager.cpp.o: CMakeFiles/TestManager.dir/flags.make
+CMakeFiles/TestManager.dir/src/TestManager.cpp.o: /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/TestManager.cpp
+CMakeFiles/TestManager.dir/src/TestManager.cpp.o: CMakeFiles/TestManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestManager.dir/src/TestManager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestManager.dir/src/TestManager.cpp.o -MF CMakeFiles/TestManager.dir/src/TestManager.cpp.o.d -o CMakeFiles/TestManager.dir/src/TestManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/TestManager.cpp
 
-CMakeFiles/TestManager.dir/TestManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TestManager.dir/TestManager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/TestManager.cpp > CMakeFiles/TestManager.dir/TestManager.cpp.i
+CMakeFiles/TestManager.dir/src/TestManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TestManager.dir/src/TestManager.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/TestManager.cpp > CMakeFiles/TestManager.dir/src/TestManager.cpp.i
 
-CMakeFiles/TestManager.dir/TestManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TestManager.dir/TestManager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/TestManager.cpp -o CMakeFiles/TestManager.dir/TestManager.cpp.s
+CMakeFiles/TestManager.dir/src/TestManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TestManager.dir/src/TestManager.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/TestManager.cpp -o CMakeFiles/TestManager.dir/src/TestManager.cpp.s
 
-CMakeFiles/TestManager.dir/DatabaseManager.cpp.o: CMakeFiles/TestManager.dir/flags.make
-CMakeFiles/TestManager.dir/DatabaseManager.cpp.o: /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.cpp
-CMakeFiles/TestManager.dir/DatabaseManager.cpp.o: CMakeFiles/TestManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TestManager.dir/DatabaseManager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestManager.dir/DatabaseManager.cpp.o -MF CMakeFiles/TestManager.dir/DatabaseManager.cpp.o.d -o CMakeFiles/TestManager.dir/DatabaseManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.cpp
+CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o: CMakeFiles/TestManager.dir/flags.make
+CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o: /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/DatabaseManager.cpp
+CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o: CMakeFiles/TestManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o -MF CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o.d -o CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/DatabaseManager.cpp
 
-CMakeFiles/TestManager.dir/DatabaseManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TestManager.dir/DatabaseManager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.cpp > CMakeFiles/TestManager.dir/DatabaseManager.cpp.i
+CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/DatabaseManager.cpp > CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.i
 
-CMakeFiles/TestManager.dir/DatabaseManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TestManager.dir/DatabaseManager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.cpp -o CMakeFiles/TestManager.dir/DatabaseManager.cpp.s
+CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/DatabaseManager.cpp -o CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.s
 
 # Object files for target TestManager
 TestManager_OBJECTS = \
-"CMakeFiles/TestManager.dir/TestManager.cpp.o" \
-"CMakeFiles/TestManager.dir/DatabaseManager.cpp.o"
+"CMakeFiles/TestManager.dir/src/TestManager.cpp.o" \
+"CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o"
 
 # External object files for target TestManager
 TestManager_EXTERNAL_OBJECTS =
 
-TestManager: CMakeFiles/TestManager.dir/TestManager.cpp.o
-TestManager: CMakeFiles/TestManager.dir/DatabaseManager.cpp.o
+TestManager: CMakeFiles/TestManager.dir/src/TestManager.cpp.o
+TestManager: CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o
 TestManager: CMakeFiles/TestManager.dir/build.make
 TestManager: CMakeFiles/TestManager.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TestManager"

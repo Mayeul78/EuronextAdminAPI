@@ -23,11 +23,11 @@ DatabaseManager::DatabaseManager(const std::string &dbName) {
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             username TEXT NOT NULL UNIQUE,
             password TEXT NOT NULL,
-            role TEXT NOT NULL CHECK (role IN ('Admin', 'Trader', 'DataAnalyst'))
+            role TEXT NOT NULL CHECK (role IN ('Admin', 'Trader', 'Surveillance'))
         );
         INSERT OR IGNORE INTO users (username, password, role) VALUES ('admin', 'admin123', 'Admin');
         INSERT OR IGNORE INTO users (username, password, role) VALUES ('trader1', 'trader123', 'Trader');
-        INSERT OR IGNORE INTO users (username, password, role) VALUES ('analyst1', 'analyst123', 'DataAnalyst');
+        INSERT OR IGNORE INTO users (username, password, role) VALUES ('analyst1', 'analyst123', 'Surveillance');
     )";
 
     std::string errorMessage;

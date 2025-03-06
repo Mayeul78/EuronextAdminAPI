@@ -1,54 +1,11 @@
-CMakeFiles/TestServerGlobalLogin.dir/server.cpp.o: \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/server.cpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/query_string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__config \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__config_site \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_posix_availability.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/Availability.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/AvailabilityVersions.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/AvailabilityInternal.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/AvailabilityInternalLegacy.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/machine/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_va_list.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/machine/types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_int8_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_int16_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_int32_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_int64_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_u_int8_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_u_int16_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_u_int32_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_u_int64_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_size_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_null.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_printf.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_seek_set.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_ctermid.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_off_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_errno_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_strings.h \
+CMakeFiles/TestServer.dir/src/TokenManager.cpp.o: \
+  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/TokenManager.cpp \
+  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/TokenManager.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/comp.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__config \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__config_site \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/integral_constant.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/operation_traits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h \
@@ -81,7 +38,6 @@ CMakeFiles/TestServerGlobalLogin.dir/server.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_header_macro.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_ptrdiff_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_size_t.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_rsize_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_wchar_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_null.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_nullptr_t.h \
@@ -230,10 +186,23 @@ CMakeFiles/TestServerGlobalLogin.dir/server.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_int8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_int16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_int32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_int64_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_types/_uint8_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_types/_uint16_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_types/_uint32_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_types/_uint64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/machine/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_types/_intmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_types/_uintmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_trivially_default_constructible.h \
@@ -261,6 +230,11 @@ CMakeFiles/TestServerGlobalLogin.dir/server.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdlib.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/stdlib.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/Availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/AvailabilityVersions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/AvailabilityInternal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/AvailabilityInternalLegacy.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/wait.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_pid_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_id_t.h \
@@ -272,10 +246,17 @@ CMakeFiles/TestServerGlobalLogin.dir/server.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/_mcontext.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/mach/machine/_structs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/mach/arm/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/machine/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_u_int64_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_sigaltstack.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_ucontext.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_size_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_uid_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/resource.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_timeval.h \
@@ -291,6 +272,7 @@ CMakeFiles/TestServerGlobalLogin.dir/server.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_rune_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_wchar_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_null.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/malloc/_malloc.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/malloc/_malloc_type.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/malloc/_ptrcheck.h \
@@ -319,6 +301,7 @@ CMakeFiles/TestServerGlobalLogin.dir/server.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/___wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_types/_wctype_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_rsize_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_mbstate_t.h \
@@ -329,6 +312,16 @@ CMakeFiles/TestServerGlobalLogin.dir/server.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_arg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg___va_copy.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_copy.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_va_list.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_printf.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_seek_set.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_ctermid.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_off_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_ssize_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/time.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_time.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_clock_t.h \
@@ -360,6 +353,12 @@ CMakeFiles/TestServerGlobalLogin.dir/server.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tuple/tuple_like.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__utility/piecewise_construct.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cstring \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_errno_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__fwd/string.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__fwd/memory_resource.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__ios/fpos.h \
@@ -812,6 +811,50 @@ CMakeFiles/TestServerGlobalLogin.dir/server.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__bit/byteswap.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__bit/endian.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__bit/has_single_bit.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/unordered_map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/is_transparent.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__hash_table \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__node_handle \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/random \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/generate_canonical.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/binomial_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/cauchy_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/gamma_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/exponential_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/clamp_to_integral.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/default_random_engine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/is_seed_sequence.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/discard_block_engine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/discrete_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/numeric \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/accumulate.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/inner_product.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/iota.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/midpoint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/pstl_reduce.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/saturation_arithmetic.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/functional \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/binary_negate.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/bind.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/bind_back.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/bind_front.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/binder1st.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/binder2nd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/array \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__bit_reference \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter.h \
@@ -838,7 +881,6 @@ CMakeFiles/TestServerGlobalLogin.dir/server.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/unicode.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/extended_grapheme_cluster_table.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/width_estimation_table.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/array \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/locale \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__locale \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__mutex/once_flag.h \
@@ -904,35 +946,6 @@ CMakeFiles/TestServerGlobalLogin.dir/server.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cstdarg \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__split_buffer \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/unordered_map \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/is_transparent.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__hash_table \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__node_handle \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/istream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/ostream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/bitset \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/format \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/container_adaptor.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/range_default_formatter.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/statically_widen.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/range_formatter.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/format_context.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/format_arg_store.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/format_args.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__ranges/ref_view.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/queue \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/deque \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/functional \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/binary_negate.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/bind.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/bind_back.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/bind_front.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/binder1st.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/binder2nd.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/compose.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/default_searcher.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/function.h \
@@ -944,56 +957,6 @@ CMakeFiles/TestServerGlobalLogin.dir/server.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stack \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/format_functions.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_char.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/write_escaped.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/escaped_output_table.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_floating_point.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__charconv/chars_format.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__charconv/to_chars_floating_point.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_integer.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_pointer.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/print \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/unistd.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/http_parser_merged.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/assert.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_assert.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_static_assert.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/common.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/utility.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/sstream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/random \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/generate_canonical.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/binomial_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/cauchy_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/gamma_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/exponential_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/clamp_to_integral.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/default_random_engine.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/is_seed_sequence.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/discard_block_engine.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/discrete_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/numeric \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/accumulate.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/inner_product.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/iota.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/midpoint.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/pstl_reduce.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/saturation_arithmetic.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/geometric_distribution.h \
@@ -1012,555 +975,4 @@ CMakeFiles/TestServerGlobalLogin.dir/server.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/seed_seq.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/settings.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/ci_map.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/TinySHA1.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/socket_adaptors.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/any_completion_executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/config.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/any \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/unistd.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_posix_vdisable.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/select.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_select.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_uuid_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/gethostuuid.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution/allocator.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/type_traits.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution/executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution/invocable_archetype.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/push_options.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/pop_options.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/traits/equality_comparable.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/traits/execute_member.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/is_applicable_property.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/traits/query_static_constexpr_member.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/traits/static_query.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution/any_executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/assert.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cassert \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/atomic_count.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/cstddef.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/executor_function.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/handler_alloc_helpers.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/memory.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/cstdint.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/throw_exception.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/noncopyable.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/recycling_allocator.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/thread_context.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/call_stack.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/tss_ptr.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/keyword_tss_ptr.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/thread_context.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/thread_info_base.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/multiple_exceptions.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/multiple_exceptions.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/associated_allocator.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/associator.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/functional.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/non_const_lvalue.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/scoped_ptr.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution/bad_executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution/impl/bad_executor.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution/blocking.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/prefer.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/traits/prefer_free.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/traits/prefer_member.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/traits/require_free.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/traits/require_member.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/traits/static_require.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/query.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/traits/query_member.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/traits/query_free.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/require.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution/blocking_adaptation.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/event.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/posix_event.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/posix_event.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/throw_error.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/error_code.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/error_code.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/local_free_on_block_exit.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/socket_types.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/ioctl.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/ttycom.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/ioccom.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/filio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/sockio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/net/if.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/net/if_var.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/time.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_timeval64.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/queue.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_timeval32.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/net/net_kev.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/socket.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/constrained_ctypes.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/machine/_param.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/_param.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_sa_family_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_socklen_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_iovec_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/poll.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/poll.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/stat.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_s_ifmt.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_filesec_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/fcntl.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/fcntl.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_o_sync.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_o_dsync.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/uio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/un.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/netinet/in.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/netinet6/in6.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/netinet/tcp.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arpa/inet.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/netdb.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/signal.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/throw_error.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/system_error.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/error.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/error.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/mutex.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/posix_mutex.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/scoped_lock.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/posix_mutex.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution/context.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/chrono \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/calendar.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/convert_to_tm.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/concepts.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/hh_mm_ss.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/day.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/file_clock.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/month.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/month_weekday.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/weekday.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/monthday.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/year.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/year_month.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/year_month_day.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/literals.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/forward_list \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution/context_as.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution/mapping.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution/occupancy.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution/outstanding_work.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution/prefer_only.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution/relationship.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/any_completion_executor.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/any_completion_handler.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/any_io_executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/execution_context.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/execution_context.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/handler_type_requirements.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/async_result.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/service_registry.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/service_registry.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/service_registry.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/execution_context.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/any_io_executor.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/associated_cancellation_slot.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/cancellation_signal.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/cancellation_type.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/cancellation_signal.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/associated_executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/is_executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/is_executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/system_executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/system_executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/executor_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/fenced_block.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/std_fenced_block.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/scheduler_operation.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/handler_tracking.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/handler_tracking.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/op_queue.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/global.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/posix_global.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/system_context.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/scheduler.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/conditionally_enabled_event.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/conditionally_enabled_mutex.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/null_event.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/null_event.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/scheduler_task.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/thread.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/posix_thread.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/posix_thread.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/scheduler.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/concurrency_hint.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/limits.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/scheduler_thread_info.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/signal_blocker.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/posix_signal_blocker.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/csignal \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/reactor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/kqueue_reactor.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/event.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/object_pool.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/reactor_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/operation.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/select_interrupter.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/pipe_select_interrupter.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/pipe_select_interrupter.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/timer_queue_base.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/timer_queue_set.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/timer_queue_set.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/wait_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/kqueue_reactor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/kqueue_reactor.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/thread_group.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/system_context.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/system_context.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/associated_immediate_executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/cancellation_state.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/recycling_allocator.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/append.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/append.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/handler_cont_helpers.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/handler_continuation_hook.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/utility.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/as_tuple.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/as_tuple.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/awaitable.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_datagram_socket.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_socket.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/io_object_impl.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/io_context.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/chrono.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/wrapped_handler.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/bind_handler.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/io_context.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/completion_handler.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/handler_work.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/initiate_dispatch.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/work_dispatcher.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/executor_work_guard.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/io_context.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/post.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/initiate_post.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/socket_base.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/io_control.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/socket_option.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/reactive_socket_service.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/buffer.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/array_fwd.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/string_view.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/is_contiguous_iterator.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/is_buffer_sequence.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/buffer_sequence_adapter.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/registered_buffer.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/buffer_sequence_adapter.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/reactive_null_buffers_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/reactive_socket_accept_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/socket_holder.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/socket_ops.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/socket_ops.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/reactive_socket_connect_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/reactive_socket_recvfrom_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/reactive_socket_sendto_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/reactive_socket_service_base.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/reactive_socket_recv_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/reactive_socket_recvmsg_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/reactive_socket_send_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/reactive_wait_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/reactive_socket_service_base.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_deadline_timer.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_file.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_io_object.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_random_access_file.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_raw_socket.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_readable_pipe.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/reactive_descriptor_service.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/descriptor_ops.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/descriptor_ops.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/descriptor_read_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/dispatch.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/descriptor_write_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/posix/descriptor_base.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/reactive_descriptor_service.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_seq_packet_socket.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_serial_port.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/serial_port_base.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/termios.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/termios.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/ttydefaults.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/serial_port_base.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/serial_port_base.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/posix_serial_port_service.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/posix_serial_port_service.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_signal_set.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/signal_set_service.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/signal_set_base.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/signal_handler.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/signal_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/signal_set_service.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/static_mutex.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/posix_static_mutex.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_socket_acceptor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_socket_iostream.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_socket_streambuf.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_stream_socket.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/steady_timer.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_waitable_timer.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/chrono_time_traits.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/deadline_timer_service.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/timer_queue.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/date_time_fwd.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/timer_queue_ptime.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/timer_scheduler.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/timer_scheduler_fwd.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/wait_handler.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/wait_traits.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_stream_file.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_streambuf.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_streambuf_fwd.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/basic_writable_pipe.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/bind_allocator.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/bind_cancellation_slot.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/bind_executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/uses_executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/bind_immediate_executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/buffer_registration.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/buffered_read_stream_fwd.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/buffered_read_stream.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/buffer_resize_guard.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/buffered_stream_storage.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/buffered_read_stream.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/buffered_stream_fwd.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/buffered_stream.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/buffered_write_stream.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/buffered_write_stream_fwd.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/completion_condition.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/write.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/write.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/base_from_cancellation_state.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/base_from_completion_cond.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/consuming_buffers.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/dependent_type.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/buffered_write_stream.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/buffers_iterator.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/co_spawn.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/compose.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/composed_work.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/connect.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/connect.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/connect_pipe.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/connect_pipe.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/connect_pipe.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/consign.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/consign.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/coroutine.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/deadline_timer.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/defer.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/initiate_defer.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/deferred.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/deferred.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detached.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/detached.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/executor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/executor.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/file_base.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/generic/basic_endpoint.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/generic/detail/endpoint.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/generic/detail/impl/endpoint.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/generic/datagram_protocol.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/generic/raw_protocol.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/generic/seq_packet_protocol.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/generic/stream_protocol.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/high_resolution_timer.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/io_context_strand.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/strand_service.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/strand_service.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/strand_service.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/io_service.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/io_service_strand.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/address.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/address_v4.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/array.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/winsock_init.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/impl/address_v4.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/impl/address_v4.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/address_v6.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/impl/address_v6.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/impl/address_v6.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/bad_address_cast.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/impl/address.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/impl/address.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/address_v4_iterator.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/address_v4_range.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/address_v6_iterator.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/address_v6_range.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/network_v4.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/impl/network_v4.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/impl/network_v4.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/network_v6.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/impl/network_v6.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/impl/network_v6.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/basic_endpoint.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/detail/endpoint.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/detail/impl/endpoint.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/impl/basic_endpoint.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/basic_resolver.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/basic_resolver_iterator.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/basic_resolver_entry.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/basic_resolver_query.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/resolver_query_base.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/resolver_base.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/basic_resolver_results.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/resolver_service.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/resolve_endpoint_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/resolve_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/resolve_query_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/resolver_service_base.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/resolver_service_base.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/host_name.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/impl/host_name.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/icmp.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/multicast.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/detail/socket_option.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/tcp.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/udp.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/unicast.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/ip/v6_only.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/is_read_buffered.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/is_write_buffered.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/local/basic_endpoint.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/local/detail/endpoint.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/local/detail/impl/endpoint.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/local/connect_pair.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/local/datagram_protocol.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/local/seq_packet_protocol.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/local/stream_protocol.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/packaged_task.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/future.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/future \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/thread \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/formatter.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/jthread.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__stop_token/stop_source.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__stop_token/stop_state.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/thread.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/this_thread.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/placeholders.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/posix/basic_descriptor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/posix/basic_stream_descriptor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/posix/descriptor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/posix/stream_descriptor.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/prepend.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/prepend.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/random_access_file.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/read.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/read.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/read_at.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/read_at.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/read_until.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/regex_fwd.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/read_until.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/readable_pipe.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/redirect_error.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/redirect_error.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/require_concept.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/traits/require_concept_member.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/traits/require_concept_free.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/traits/static_require_concept.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/serial_port.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/signal_set.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/static_thread_pool.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/thread_pool.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/thread_pool.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/blocking_executor_op.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/thread_pool.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/strand.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/strand_executor_service.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/strand_executor_service.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/detail/impl/strand_executor_service.ipp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/stream_file.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/streambuf.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/system_timer.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/this_coro.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/thread.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/time_traits.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/use_awaitable.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/use_future.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/use_future.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/version.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/windows/basic_object_handle.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/windows/basic_overlapped_handle.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/windows/basic_random_access_handle.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/windows/basic_stream_handle.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/windows/object_handle.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/windows/overlapped_handle.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/windows/overlapped_ptr.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/windows/random_access_handle.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/windows/stream_handle.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/writable_pipe.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/write_at.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/asio/impl/write_at.hpp \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/json.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cfloat \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/float.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/float.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/float.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/returnable.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/logging.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/mustache.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/fstream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/filesystem \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_status.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_type.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/perms.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/path.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iomanip \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/operations.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/space_info.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/task_timer.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/map \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tree \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/http_request.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/websocket.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/parser.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/http_response.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/mime_types.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/multipart.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/exceptions.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/multipart_view.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/charconv \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__charconv/from_chars_integral.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__charconv/from_chars_result.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__charconv/to_chars.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/routing.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/middleware.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/middleware_context.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/compression.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/http_connection.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/http_server.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/version.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/app.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/condition_variable \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__stop_token/stop_callback.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sqlite3.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/TokenManager.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/weibull_distribution.h

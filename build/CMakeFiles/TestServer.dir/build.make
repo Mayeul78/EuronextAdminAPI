@@ -69,60 +69,60 @@ include CMakeFiles/TestServer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TestServer.dir/flags.make
 
-CMakeFiles/TestServer.dir/server.cpp.o: CMakeFiles/TestServer.dir/flags.make
-CMakeFiles/TestServer.dir/server.cpp.o: /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/server.cpp
-CMakeFiles/TestServer.dir/server.cpp.o: CMakeFiles/TestServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestServer.dir/server.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestServer.dir/server.cpp.o -MF CMakeFiles/TestServer.dir/server.cpp.o.d -o CMakeFiles/TestServer.dir/server.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/server.cpp
+CMakeFiles/TestServer.dir/src/server.cpp.o: CMakeFiles/TestServer.dir/flags.make
+CMakeFiles/TestServer.dir/src/server.cpp.o: /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/server.cpp
+CMakeFiles/TestServer.dir/src/server.cpp.o: CMakeFiles/TestServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestServer.dir/src/server.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestServer.dir/src/server.cpp.o -MF CMakeFiles/TestServer.dir/src/server.cpp.o.d -o CMakeFiles/TestServer.dir/src/server.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/server.cpp
 
-CMakeFiles/TestServer.dir/server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TestServer.dir/server.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/server.cpp > CMakeFiles/TestServer.dir/server.cpp.i
+CMakeFiles/TestServer.dir/src/server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TestServer.dir/src/server.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/server.cpp > CMakeFiles/TestServer.dir/src/server.cpp.i
 
-CMakeFiles/TestServer.dir/server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TestServer.dir/server.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/server.cpp -o CMakeFiles/TestServer.dir/server.cpp.s
+CMakeFiles/TestServer.dir/src/server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TestServer.dir/src/server.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/server.cpp -o CMakeFiles/TestServer.dir/src/server.cpp.s
 
-CMakeFiles/TestServer.dir/DatabaseManager.cpp.o: CMakeFiles/TestServer.dir/flags.make
-CMakeFiles/TestServer.dir/DatabaseManager.cpp.o: /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.cpp
-CMakeFiles/TestServer.dir/DatabaseManager.cpp.o: CMakeFiles/TestServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TestServer.dir/DatabaseManager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestServer.dir/DatabaseManager.cpp.o -MF CMakeFiles/TestServer.dir/DatabaseManager.cpp.o.d -o CMakeFiles/TestServer.dir/DatabaseManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.cpp
+CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o: CMakeFiles/TestServer.dir/flags.make
+CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o: /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/DatabaseManager.cpp
+CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o: CMakeFiles/TestServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o -MF CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o.d -o CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/DatabaseManager.cpp
 
-CMakeFiles/TestServer.dir/DatabaseManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TestServer.dir/DatabaseManager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.cpp > CMakeFiles/TestServer.dir/DatabaseManager.cpp.i
+CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/DatabaseManager.cpp > CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.i
 
-CMakeFiles/TestServer.dir/DatabaseManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TestServer.dir/DatabaseManager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.cpp -o CMakeFiles/TestServer.dir/DatabaseManager.cpp.s
+CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/DatabaseManager.cpp -o CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.s
 
-CMakeFiles/TestServer.dir/TokenManager.cpp.o: CMakeFiles/TestServer.dir/flags.make
-CMakeFiles/TestServer.dir/TokenManager.cpp.o: /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/TokenManager.cpp
-CMakeFiles/TestServer.dir/TokenManager.cpp.o: CMakeFiles/TestServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TestServer.dir/TokenManager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestServer.dir/TokenManager.cpp.o -MF CMakeFiles/TestServer.dir/TokenManager.cpp.o.d -o CMakeFiles/TestServer.dir/TokenManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/TokenManager.cpp
+CMakeFiles/TestServer.dir/src/TokenManager.cpp.o: CMakeFiles/TestServer.dir/flags.make
+CMakeFiles/TestServer.dir/src/TokenManager.cpp.o: /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/TokenManager.cpp
+CMakeFiles/TestServer.dir/src/TokenManager.cpp.o: CMakeFiles/TestServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TestServer.dir/src/TokenManager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestServer.dir/src/TokenManager.cpp.o -MF CMakeFiles/TestServer.dir/src/TokenManager.cpp.o.d -o CMakeFiles/TestServer.dir/src/TokenManager.cpp.o -c /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/TokenManager.cpp
 
-CMakeFiles/TestServer.dir/TokenManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TestServer.dir/TokenManager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/TokenManager.cpp > CMakeFiles/TestServer.dir/TokenManager.cpp.i
+CMakeFiles/TestServer.dir/src/TokenManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TestServer.dir/src/TokenManager.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/TokenManager.cpp > CMakeFiles/TestServer.dir/src/TokenManager.cpp.i
 
-CMakeFiles/TestServer.dir/TokenManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TestServer.dir/TokenManager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/TokenManager.cpp -o CMakeFiles/TestServer.dir/TokenManager.cpp.s
+CMakeFiles/TestServer.dir/src/TokenManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TestServer.dir/src/TokenManager.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/TokenManager.cpp -o CMakeFiles/TestServer.dir/src/TokenManager.cpp.s
 
 # Object files for target TestServer
 TestServer_OBJECTS = \
-"CMakeFiles/TestServer.dir/server.cpp.o" \
-"CMakeFiles/TestServer.dir/DatabaseManager.cpp.o" \
-"CMakeFiles/TestServer.dir/TokenManager.cpp.o"
+"CMakeFiles/TestServer.dir/src/server.cpp.o" \
+"CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o" \
+"CMakeFiles/TestServer.dir/src/TokenManager.cpp.o"
 
 # External object files for target TestServer
 TestServer_EXTERNAL_OBJECTS =
 
-TestServer: CMakeFiles/TestServer.dir/server.cpp.o
-TestServer: CMakeFiles/TestServer.dir/DatabaseManager.cpp.o
-TestServer: CMakeFiles/TestServer.dir/TokenManager.cpp.o
+TestServer: CMakeFiles/TestServer.dir/src/server.cpp.o
+TestServer: CMakeFiles/TestServer.dir/src/DatabaseManager.cpp.o
+TestServer: CMakeFiles/TestServer.dir/src/TokenManager.cpp.o
 TestServer: CMakeFiles/TestServer.dir/build.make
 TestServer: CMakeFiles/TestServer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TestServer"

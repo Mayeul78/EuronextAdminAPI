@@ -1,5 +1,5 @@
-CMakeFiles/TestServer2.dir/server.cpp.o: \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/server.cpp \
+CMakeFiles/TestServer.dir/src/server.cpp.o: \
+  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/src/server.cpp \
   /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow.h \
   /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/query_string.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdio.h \
@@ -1561,5 +1561,6 @@ CMakeFiles/TestServer2.dir/server.cpp.o: \
   /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/crow/app.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/condition_variable \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__stop_token/stop_callback.h \
-  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/DatabaseManager.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sqlite3.h
+  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/DatabaseManager.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sqlite3.h \
+  /Users/mayeulboucher/Desktop/Project_Euronext/TestServeur/include/TokenManager.h

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TestManager.dir/DatabaseManager.cpp.o"
-  "CMakeFiles/TestManager.dir/DatabaseManager.cpp.o.d"
-  "CMakeFiles/TestManager.dir/TestManager.cpp.o"
-  "CMakeFiles/TestManager.dir/TestManager.cpp.o.d"
+  "CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o"
+  "CMakeFiles/TestManager.dir/src/DatabaseManager.cpp.o.d"
+  "CMakeFiles/TestManager.dir/src/TestManager.cpp.o"
+  "CMakeFiles/TestManager.dir/src/TestManager.cpp.o.d"
   "TestManager"
   "TestManager.pdb"
 )

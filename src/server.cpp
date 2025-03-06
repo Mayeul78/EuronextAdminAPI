@@ -110,29 +110,31 @@ int main() {
         return crow::response(200, response);
     });
 
-    // Update an instrument (Admin only)
     CROW_ROUTE(app, "/instruments/<string>").methods("PUT"_method)([&](const crow::request &req, const std::string &isin) {
         std::string role;
         auto token = req.get_header_value("Authorization");
-
+    
+        // Check token/role
         if (!tokenManager.isTokenValid(token, role) || role != "Admin") {
             return crow::response(403, "Forbidden: Admin access only");
         }
-
+    
+        // Currently, we expect { "field": "", "value": "" }
         auto body = crow::json::load(req.body);
         if (!body || !body.has("field") || !body.has("value")) {
             return crow::response(400, "Missing field or value");
         }
-
+    
         std::string field = body["field"].s();
         std::string value = body["value"].s();
-
+    
         if (dbManager.updateInstrument(isin, field, value)) {
             return crow::response(200, "Instrument updated successfully");
         } else {
             return crow::response(500, "Failed to update instrument");
         }
     });
+    
 
     // Delete an instrument (Admin only)
     CROW_ROUTE(app, "/instruments/<string>").methods("DELETE"_method)([&](const crow::request &req, const std::string &isin) {
